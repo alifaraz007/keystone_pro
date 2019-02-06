@@ -5,7 +5,7 @@
             <div class="row">
                 {{# each products}}
                 <div class="col-md-4 col-lg-4">
-                    <h2><a href="">{{{title}}}</a></h2>
+                    <h2><a href="{{productUrl slug}}">{{{title}}}</a></h2>
                     {{#if image}}
                     <img src="{{{cloudinaryUrl image width=160 height=160 crop="fit"}}}" class="thumbnail">
                     {{/if}}
